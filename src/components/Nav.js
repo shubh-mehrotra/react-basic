@@ -25,11 +25,10 @@ export default function Nav() {
                 <Link to="/about">
                     <li>About</li>
                 </Link>
-                
-                <Link to="/detail">
-                    <li>Detail</li>
+
+                <Link to="/users">
+                    <li>Users</li>
                 </Link>
-                
             </ul>
         </nav>
     )
