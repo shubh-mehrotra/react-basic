@@ -14,8 +14,8 @@ export default function User() {
     return (
         <div>
             {users.map(user => (
-                <Link to={`/users/${user.id}`}>
-                    <h1 key={user.id}>{user.name}</h1>
+                <Link to={`/users/${user.id}`} key={user.id}>
+                    <h1>{user.name}</h1>
                 </Link>
             ))}
 

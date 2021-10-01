@@ -3,6 +3,8 @@ import Nav from './components/Nav';
 import User from './components/User';
 import Pics from './components/Pics';
 import About from './components/About';
+import Album from './components/Album';
+import Comment from './components/Comment';
 import StoreList from './components/StoreList';
 import UserDetail from './components/UserDetail';
 import StoreDescription from './components/StoreDescription';
@@ -25,6 +27,8 @@ function App() {
                     <Route path="/users/:id" component={UserDetail} />
                     <Route path="/stores" exact component={StoreList} />
                     <Route path="/stores/:id" component={StoreDescription} />
+                    <Route path="/comments" component={Comment} />
+                    <Route path="/albums" component={Album} />
                 </Switch>
             </div>
         </Router>

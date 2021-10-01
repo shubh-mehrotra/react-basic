@@ -29,6 +29,14 @@ export default function Nav() {
                 <Link to="/users">
                     <li>Users</li>
                 </Link>
+
+                <Link to="/comments">
+                    <li>Comments</li>
+                </Link>
+
+                <Link to="/Albums">
+                    <li>albums</li>
+                </Link>
             </ul>
         </nav>
     )
