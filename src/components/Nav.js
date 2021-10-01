@@ -18,7 +18,7 @@ export default function Nav() {
                     <li>Pics</li>
                 </Link>
 
-                <Link to="/store-list">
+                <Link to="/stores">
                     <li>Store list</li>
                 </Link>
                 

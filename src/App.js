@@ -4,6 +4,7 @@ import Pics from './components/Pics';
 import About from './components/About';
 import Detail from './components/Detail';
 import StoreList from './components/StoreList';
+import StoreDescription from './components/StoreDescription';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/pics" component={Pics} />
-                    <Route path="/store-list" component={StoreList} />
+                    <Route path="/stores" exact component={StoreList} />
+                    <Route path="/stores/:id" component={StoreDescription} />
                 </Switch>
 
                 {/* <Detail testProp="test-prop" helloAlert={helloAlert}><br />This is children</Detail> */}
